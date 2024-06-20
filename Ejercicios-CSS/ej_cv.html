@@ -3,40 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <title>CV Nombre Apellido</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            color: #000000;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 1em;
+            color: #3b3b3b;
+        }
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 0.5em;
+            color: #333;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 0.2em;
+        }
+        h4 {
+            font-size: 1em;
+            margin-bottom: 0.2em;
+            color: #4174ff;
+        }
+        p {
+            margin: 0.5em 0;
+        }
+        span {
+            font-weight: bold;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+    </style>
 </head>
 <body>
 
-<div>
-    <h1>Nombre Alumno</h1>
-    <h2>Ing. en Computacion</h2>
-</div>
-
-<div>
-    <h3>Datos Personales</h3>
-    <p><span>Fecha de Nacimiento:</span> dd/mm/aaaa</p>
-    <p><span>Email:</span> email@email.com</p>
-</div>
-
-<div>
-    <h3>Formacion Academica</h3>
-    <p><span>Carrera:</span> Ingeniería XXXXX</p>
-    <p><span>Universidad:</span> Universidad Católica de Córdoba</p>
-    <p><span>Año de Ingreso:</span> 2018</p>
-</div>
-
-<div>
-    <h3>Cursos</h3>
-
-    <div>
-        <h4>Nombre Curso 1</h4>
-        <p><span>Lugar:</span> Nombre Institución</p>
-        <p><span>Año:</span> XXXX </p>
+<div class="container">
+    <div class="section">
+        <h1>Matias Vidal</h1>
+        <h2>Ing. en Sistemas</h2>
     </div>
 
-    <div>
-        <h4>Nombre Curso 2</h4>
-        <p><span>Lugar:</span> Nombre Institución</p>
-        <p><span>Año:</span> XXXX </p>
+    <div class="section">
+        <h3>Datos Personales</h3>
+        <p><span>Fecha de Nacimiento:</span> 04/12/2004</p>
+        <p><span>Email:</span> 2302403@ucc.edu.ar</p>
+    </div>
+
+    <div class="section">
+        <h3>Formación Académica</h3>
+        <p><span>Carrera:</span> Ingeniería en Sistemas</p>
+        <p><span>Universidad:</span> Universidad Católica de Córdoba</p>
+        <p><span>Año de Ingreso:</span> 2023</p>
+    </div>
+
+    <div class="section">
+        <h3>Cursos</h3>
+
+        <div class="course">
+            <h4>Diplomatura en ciencia de datos</h4>
+            <p><span>Lugar:</span> Universidad nacional de Cordoba</p>
+            <p><span>Año:</span> 2023 </p>
+        </div>
+
+
     </div>
 </div>
 
